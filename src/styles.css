@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+.Grid {
+  display: grid;
+  grid-template-rows: 48px auto 48px;
+  height: 100%;
+}
+h1 {
+  font-size: 20px;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+}
+.Header {
+  border-bottom: 2px solid #f8eeea;
+}
+.Card {
+  position: relative;
+  background-color: #f8eeea;
+
+  border-radius: 2px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.Card__container {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+  overflow: scroll;
+}
+
+.Card_tag {
+  background-color: #ff6a2f52;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+}
+.Bookmark {
+  position: absolute;
+  border: 15px solid black;
+  border-bottom-color: transparent;
+  top: -5px;
+  right: 30px;
+  width: 0;
+}
+.Navigation {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.Navbuttons {
+  border: none;
+}
